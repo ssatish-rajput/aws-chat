@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "https://awscrm.strivemindz.com",
+  "proxy": "https://awscrm.strivemindz.com:3555",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.6",
