@@ -66,7 +66,6 @@ const MyChats = ({ fetchAgain }) => {
   };
 
   const accessChat = async (userId) => {
-    console.log(userId);
 
     try {
       setLoadingChat(true);

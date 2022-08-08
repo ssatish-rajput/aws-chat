@@ -18,7 +18,7 @@ const { selectedChat } = ChatState();
         w={{ base: "100%", md: "72%" }}
         borderRadius="lg"
         borderWidth="1px"
-        style={{float: "right", position: "relative", top:-280, maxHeight:400, overflow:'auto'}}
+        style={{float: "right", position: "absolute", top:146, left:250, maxHeight:400, overflow:'auto'}}
       >
         <SingleChat fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
       </Box>
